@@ -1,3 +1,4 @@
+```yaml
 apiVersion: elasticsearch.k8s.elastic.co/v1
 kind: Elasticsearch
 metadata:
@@ -9,3 +10,8 @@ spec:
         count: 3
         config:
             node.store.allow_mmap: false
+```
+
+```bash
+kubectl apply -f /workspaces/OpenShiftEventRouter/6_Symbols/elasticsearch.yaml
+```
