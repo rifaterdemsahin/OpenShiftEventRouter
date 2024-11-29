@@ -1,9 +1,9 @@
 # Self Learning Project Template
 
-Documentation for the Folder Structure
-| Section             | Description                                                                                                               | Action              |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **🚀 Journey**      | *Visual Story Explained with Steps* - A self-learning guide from beginner to skilled in visual storytelling.              | Feel > References |
+## Documentation for the Folder Structure
+
+| Section         | Description                                                                                                      | Action                |
+|-----------------|------------------------------------------------------------------------------------------------------------------|-----------------------|
 | **🌍 Real**         | *The Job That Starts with Objective and Key Results* - Sets goals and objectives, aligning tasks with measurable results. | Aim > Goals   |
 | **🌳 Environments** | *The Roadmap and Use Cases* - A roadmap with learning modules and real-world use cases to apply new skills.            | Create > Runtimes |
 | **🌌 Imaginary**    | *What You Learn on the Road* - Tracks concepts, theories, and skills acquired, promoting continuous growth.            | Capture > Screenshots |
@@ -16,3 +16,8 @@ Practical Terminal Commands From Your Workstation
 ```bash
 git pull; git add . ; git commit -m "Codespaces" -m "updates"; git push;clear
 ```
+
+prompts:
+- fix grammar spelling
+- fix syntax
+- add remove emojis
