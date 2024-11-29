@@ -11,7 +11,6 @@ Example:
 apiVersion: elasticsearch.k8s.elastic.co/v1
 kind: Elasticsearch
 metadata:
-  name: quickstart
   namespace: elasticsearch
 spec:
   version: 7.10.0
