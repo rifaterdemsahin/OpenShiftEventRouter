@@ -19,4 +19,12 @@ quickstart   green    1       7.10.1    Ready   10m
 
 
 
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter (main) $ kubectl apply -f /workspaces/OpenShiftEventRouter/6_Symbols/elasticsearchservice.yaml
+error: error parsing /workspaces/OpenShiftEventRouter/6_Symbols/elasticsearchservice.yaml: error converting YAML to JSON: yaml: line 11: mapping values are not allowed in this context
+
+after /fix yaml with copilot
+
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter (main) $ kubectl apply -f /workspaces/OpenShiftEventRouter/6_Symbols/elasticsearchservice.yaml
+service/quickstart-es-http created
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter (main) $ 
 
