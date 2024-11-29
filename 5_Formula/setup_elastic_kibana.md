@@ -44,6 +44,11 @@
     EOF
     ```
 
+
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter/6_Symbols (main) $ kubectl apply -f elasticsearch.yaml 
+elasticsearch.elasticsearch.k8s.elastic.co/quickstart created
+
+
 3. **Deploy Kibana**:
     ```sh
     cat <<EOF | kubectl apply -f -
@@ -59,6 +64,9 @@
          name: quickstart
     EOF
     ```
+
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter/6_Symbols (main) $ kubectl apply -f kibana.yaml 
+kibana.kibana.k8s.elastic.co/quickstart created
 
 4. **Access Kibana**:
     ```sh
