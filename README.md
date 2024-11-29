@@ -14,7 +14,7 @@
 Practical Terminal Commands From Your Workstation
 
 ```bash
-git pull; git add . ; git commit -m "Codespaces" -m "updates"; git push;clear
+git pull; git add . ; git commit -m "Codespaces" -m "updates"; git push;sleep 3;clear
 ```
 
 prompts:
