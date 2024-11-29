@@ -105,3 +105,6 @@ The OpenShift Event Router monitors the Kubernetes event stream and outputs the 
 - **Security**: Ensure the connection to Elasticsearch uses TLS if it's exposed.
 
 ---
+
+
+git pull; git add . ; git commit -m "Codespaces" ; git push;clear

@@ -39,3 +39,17 @@ To https://github.com/rifaterdemsahin/OpenShiftEventRouter
 🌟  Enabled addons: storage-provisioner, default-storageclass
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
 @rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter (main) $ 
+
+Second Start
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter (main) $    minikube start --cpus=4 --memory=4g --driver=docker
+😄  minikube v1.34.0 on Ubuntu 20.04 (docker/amd64)
+✨  Using the docker driver based on existing profile
+👍  Starting "minikube" primary control-plane node in "minikube" cluster
+🚜  Pulling base image v0.0.45 ...
+🔄  Restarting existing docker container for "minikube" ...
+🐳  Preparing Kubernetes v1.31.0 on Docker 27.2.0 ...
+🔎  Verifying Kubernetes components...
+    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
+🌟  Enabled addons: default-storageclass, storage-provisioner
+🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter (main) $ 
