@@ -1,0 +1,11 @@
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter/6_Symbols (main) $ kubectl get pods -n elasticsearch
+No resources found in elasticsearch namespace.
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter/6_Symbols (main) $ kubectl get pods -n elasticsearch
+No resources found in elasticsearch namespace.
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter/6_Symbols (main) $ kubectl get pods -n elasticsearch
+
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter/6_Symbols (main) $ kubectl get events -n elasticsearch
+
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter/6_Symbols (main) $  kubectl get events -n elasticsearch
+No resources found in elasticsearch namespace.
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter/6_Symbols (main) $ 
