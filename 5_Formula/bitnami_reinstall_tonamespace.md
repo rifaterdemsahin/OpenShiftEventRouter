@@ -13,17 +13,28 @@ helm repo add bitnami https://charts.bitnami.com/bitnami
 helm repo update
 ```
 
+kubectl create namespace monitoring
+
 ## Install Elasticsearch
 To install Elasticsearch in the `monitoring` namespace, use the following command:
 ```sh
 helm install elasticsearch bitnami/elasticsearch --namespace monitoring
 ```
 
+@rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter (main) $ kubectl port-forward --namespace monitoring svc/elasticsearch 9200:9200
+Forwarding from 127.0.0.1:9200 -> 9200
+Forwarding from [::1]:9200 -> 9200
+
+
+new terminal 
+
 ## Install Kibana
 To install Kibana in the `monitoring` namespace, use the following command:
 ```sh
 helm install kibana bitnami/kibana --namespace monitoring
 ```
+
+    helm upgrade --namespace monitoring kibana oci://registry-1.docker.io/bitnamicharts/kibana --set service.type=NodePort --set service.nodePort=30007 --set elasticsearch.hosts[0]=http://host.minikube.internal --set elasticsearch.port=9200
 
 ## Verify Installation
 Check the status of the pods in the `monitoring` namespace to ensure they are running:
