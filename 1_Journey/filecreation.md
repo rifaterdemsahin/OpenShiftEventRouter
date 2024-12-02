@@ -67,6 +67,9 @@
 # Restart Time
 - 11:07:38 - .vscode/settings.json
 - 11:17:36 - 6_Symbols/list_journey.pl
+-            create manifest / apply manifests
+-            /workspaces/OpenShiftEventRouter/7_Semblance/alreadyexists.md
+
 
 prompts:
 - remove the year information
@@ -74,3 +77,4 @@ prompts:
 - rewrite for a markdown structure
 - remove repeating > /workspaces/OpenShiftEventRouter
 - add or update emojis
+- add the file creation time
