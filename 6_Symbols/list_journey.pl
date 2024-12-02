@@ -1,3 +1,4 @@
+# python /workspaces/OpenShiftEventRouter/6_Symbols/list_journey.pl
 import os
 import subprocess
 from datetime import datetime

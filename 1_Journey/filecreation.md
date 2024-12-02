@@ -67,12 +67,32 @@
 # Restart Time
 - 11:07:38 - .vscode/settings.json
 - 11:17:36 - 6_Symbols/list_journey.pl
--            create manifest / apply manifests
--            /workspaces/OpenShiftEventRouter/7_Semblance/alreadyexists.md
+- 📝 **Create Manifest / Apply Manifests**
+    - 7_Semblance/alreadyexists.md
+
+## New Updates
+- 🕒 14:54:09 - 7_Semblance/yaml_to_json_error.png
+- 🕒 14:54:09 - 7_Semblance/multilinespaste.md
+- 🕒 14:54:09 - 7_Semblance/paste_errors_even_in_yaml.png
+- 🕒 14:54:09 - 7_Semblance/README.md
+- 🕒 14:54:09 - 7_Semblance/service-not-found.md
+- 🕒 14:54:09 - 7_Semblance/helm_upgrade_error.md
+- 🕒 14:54:09 - 7_Semblance/yaml_to_json_error.md
+- 🕒 14:54:40 - 4_UI/64_gb_machine.png
+- 🕒 15:00:29 - 7_Semblance/memory_allocation_limit.md
+- 🕒 15:03:50 - 5_Formula/minikube_start.md
+- 🕒 15:05:38 - 7_Semblance/pod_not_running.md
+- 🕒 15:07:46 - 7_Semblance/no-deployed-releases.md
+- 🕒 15:08:01 - 5_Formula/bitnami_reinstall_tonamespace.md
+- 🕒 15:08:51 - 4_UI/kibana_helm_upgrade_success.md
+- 🕒 15:09:48 - 4_UI/elastic_kibana_running.md
+- 🕒 15:12:42 - 6_Symbols/port_forward.md
+- 🕒 15:13:39 - 4_UI/prompts_at_the_bottom.png
+- 🕒 16:57:58 - 6_Symbols/list_journey.pl
 
 
 prompts:
-- remove the year information
+- shorter year month day format
 - remove the second information
 - rewrite for a markdown structure
 - remove repeating > /workspaces/OpenShiftEventRouter
