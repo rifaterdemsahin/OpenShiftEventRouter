@@ -73,3 +73,4 @@ prompts:
 - remove the second information
 - rewrite for a markdown structure
 - remove repeating > /workspaces/OpenShiftEventRouter
+- add or update emojis

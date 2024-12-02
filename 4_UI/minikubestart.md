@@ -53,3 +53,4 @@ Second Start
 🌟  Enabled addons: default-storageclass, storage-provisioner
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
 @rifaterdemsahin ➜ /workspaces/OpenShiftEventRouter (main) $ 
+
