@@ -29,6 +29,8 @@ Check the status of the pods to ensure they are running:
 kubectl get pods
 ```
 
+
+
 ## Access Kibana
 To access Kibana, you can use port forwarding:
 ```sh
