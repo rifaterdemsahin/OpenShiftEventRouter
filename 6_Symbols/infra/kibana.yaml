@@ -2,9 +2,11 @@ apiVersion: kibana.k8s.elastic.co/v1
 kind: Kibana
 metadata:
   name: quickstart
-  namespace: elasticsearch
+  namespace: default
 spec:
   version: 7.10.0
   count: 1
   elasticsearchRef:
     name: quickstart
+
+# prompt: make it simpiler for minikube

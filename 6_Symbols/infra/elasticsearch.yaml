@@ -1,12 +1,24 @@
 apiVersion: elasticsearch.k8s.elastic.co/v1
 kind: Elasticsearch
 metadata:
-    name: quickstart
-    namespace: elasticsearch
+  name: quickstart
+  namespace: elasticsearch
 spec:
-    version: 7.10.0
-    nodeSets:
-      - name: default
-        count: 3
-        config:
-          node.store.allow_mmap: false
+  version: 7.10.0
+  nodeSets:
+    - name: default
+      count: 1
+      config:
+        node.store.allow_mmap: false
+      podTemplate:
+        spec:
+          containers:
+            - name: elasticsearch
+              resources:
+                requests:
+                  memory: 1Gi
+                  cpu: 500m
+                limits:
+                  memory: 2Gi
+                  cpu: 1
+# prompt: make it simpler for minikube
