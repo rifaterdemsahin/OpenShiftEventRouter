@@ -9,7 +9,7 @@ Sure, let's break down these environments and tools:
 ### 3. **CRC (CodeReady Containers)**
 **CodeReady Containers (CRC)** is a tool provided by Red Hat that allows you to run a minimal, preconfigured OpenShift 4 cluster on your local machine. This is designed for development and testing purposes, providing a local environment that mimics a production OpenShift setup. CRC is particularly useful for developers who need to test their applications in an OpenShift environment without the overhead of managing a full cluster[1](https://www.redhat.com/en/blog/codeready-containers)[2](https://www.unixarena.com/2022/03/openshift-4-x-single-node-cluster-setup-using-redhat-crc.html/).
 
-### 4. **OpenShift Local**
+### 4. **OpenShift Local** = CRC ( Legacy Name)
 **OpenShift Local** is essentially the new name for CodeReady Containers. It provides the same functionality, allowing developers to run a local OpenShift cluster for development and testing. This rebranding aligns with Red Hat's naming conventions and emphasizes the local development aspect of the tool.
 
 ### 5. **DevCluster**
