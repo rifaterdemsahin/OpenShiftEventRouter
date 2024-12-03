@@ -1,3 +1,5 @@
+Port number mapped in Loadbalancer > https://solid-spoon-7w5g6j4pp72w5xx-9200.app.github.dev/
+
 {
   "name" : "elasticsearch-coordinating-0",
   "cluster_name" : "elastic",
