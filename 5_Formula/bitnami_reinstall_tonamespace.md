@@ -2,6 +2,7 @@
 >>> reboot 
 minikube delete
 minikube start
+minikube status
 ## Prerequisites
 - Kubernetes cluster
 - Helm installed and configured
@@ -12,7 +13,7 @@ First, add the Bitnami repository to Helm:
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm repo update
 ```
-
+## Create namespace
 kubectl create namespace monitoring
 
 ## Install Elasticsearch

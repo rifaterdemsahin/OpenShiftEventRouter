@@ -85,6 +85,7 @@
 - 📝 15:03:50 - 5_Formula/minikube_start.md
 - 📝 15:05:38 - 7_Semblance/pod_not_running.md
 - 📝 15:07:46 - 7_Semblance/no-deployed-releases.md
+
 ## Bitnami Pivot
 - 📝 15:08:01 - 5_Formula/bitnami_reinstall_tonamespace.md
 - 📝 15:08:51 - 4_UI/kibana_helm_upgrade_success.md
